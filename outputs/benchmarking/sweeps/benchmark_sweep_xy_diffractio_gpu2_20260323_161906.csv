@@ -1,0 +1,4 @@
+label,size,repeats,warmup,elapsed_min_s,elapsed_median_s,elapsed_max_s
+"RS XY (Scalar_field_XY, diffractio_gpu2)",256,5,1,0.06846079998649657,0.06972459994722158,0.09900709998328239
+"RS XY (Scalar_field_XY, diffractio_gpu2)",512,5,1,0.21579220000421628,0.22358769999118522,0.2276743000256829
+"RS XY (Scalar_field_XY, diffractio_gpu2)",1024,5,1,1.1608714999747463,1.2019695999915712,1.2244660000433214

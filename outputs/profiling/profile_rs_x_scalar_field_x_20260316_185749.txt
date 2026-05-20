@@ -1,0 +1,45 @@
+label: RS X (Scalar_field_X)
+elapsed_s: 0.037852
+python_current_mib: 0.3930
+python_peak_mib: 3.2680
+rss_delta_mib: 1.9688
+
+[cprofile]
+         110 function calls (109 primitive calls) in 0.037 seconds
+
+   Ordered by: cumulative time
+   List reduced from 62 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.000    0.000    0.037    0.037 utils_common.py:33(wrapper)
+        1    0.001    0.001    0.037    0.037 scalar_fields_X.py:890(RS)
+        1    0.002    0.002    0.036    0.036 scalar_fields_X.py:789(_RS_)
+        1    0.018    0.018    0.018    0.018 scalar_fields_X.py:1545(kernelRS)
+        3    0.000    0.000    0.014    0.005 basic.py:11(c2c)
+        3    0.014    0.005    0.014    0.005 {built-in method scipy.fft._pocketfft.pypocketfft.c2c}
+        2    0.000    0.000    0.011    0.005 _basic.py:12(fft)
+        1    0.000    0.000    0.004    0.004 _basic.py:91(ifft)
+        1    0.000    0.000    0.000    0.000 function_base.py:27(linspace)
+        2    0.000    0.000    0.000    0.000 scalar_fields_X.py:115(__init__)
+        1    0.000    0.000    0.000    0.000 _version.py:53(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        3    0.000    0.000    0.000    0.000 helper.py:85(_asfarray)
+        2    0.000    0.000    0.000    0.000 utils_common.py:678(get_date)
+        5    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        2    0.000    0.000    0.000    0.000 {method 'strftime' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 numeric.py:97(zeros_like)
+        1    0.000    0.000    0.000    0.000 {method 'max' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.000    0.000 _methods.py:39(_amax)
+        1    0.000    0.000    0.000    0.000 __init__.py:164(match)
+        1    0.000    0.000    0.000    0.000 {method 'min' of 'numpy.generic' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        3    0.000    0.000    0.000    0.000 helper.py:166(_workers)
+        1    0.000    0.000    0.000    0.000 __init__.py:174(search)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:280(_compile)
+
+

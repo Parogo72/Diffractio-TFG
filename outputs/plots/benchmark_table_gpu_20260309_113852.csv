@@ -1,0 +1,9 @@
+section,size,method,median_s,speedup_vs_rs
+fixed,,RS XYZ,0.401796700,1.0
+fixed,,RS_batched XYZ (batch_size=8),0.258680500,1.553254691
+sweep,128,RS XYZ,0.098766300,1.0
+sweep,128,RS_batched XYZ (batch_size=8),0.028183100,3.504451249
+sweep,256,RS XYZ,0.399556100,1.0
+sweep,256,RS_batched XYZ (batch_size=8),0.245296900,1.628867303
+sweep,512,RS XYZ,2.927140100,1.0
+sweep,512,RS_batched XYZ (batch_size=8),5.250648700,0.557481612

@@ -1,0 +1,5 @@
+label,size,repeats,warmup,elapsed_min_s,elapsed_median_s,elapsed_max_s
+"RS XZ (Scalar_mask_XZ, diffractio_gpu2)",256,5,1,5.829615199996624,5.947389899985865,6.079292699985672
+"RS XZ (Scalar_mask_XZ, diffractio_gpu2)",512,5,1,6.394798699999228,6.491586600022856,6.563914600003045
+"RS XZ (Scalar_mask_XZ, diffractio_gpu2)",1024,5,1,7.798458500008564,7.9506254000007175,8.170226600021124
+"RS XZ (Scalar_mask_XZ, diffractio_gpu2)",2048,5,1,12.971489900024608,13.078461800003424,13.352096899994649

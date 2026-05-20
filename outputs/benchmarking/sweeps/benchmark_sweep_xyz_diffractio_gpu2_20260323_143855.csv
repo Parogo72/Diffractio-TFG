@@ -1,0 +1,4 @@
+label,size,repeats,warmup,elapsed_min_s,elapsed_median_s,elapsed_max_s
+"RS_batched XYZ (Scalar_field_XYZ, diffractio_gpu2)",128,5,1,0.022011400025803596,0.02347770001506433,0.027879000001121312
+"RS_batched XYZ (Scalar_field_XYZ, diffractio_gpu2)",256,5,1,0.17502520000562072,0.19586390000768006,0.20656229997985065
+"RS_batched XYZ (Scalar_field_XYZ, diffractio_gpu2)",512,5,1,1.2166723999544047,1.2792110000154935,1.322511599981226

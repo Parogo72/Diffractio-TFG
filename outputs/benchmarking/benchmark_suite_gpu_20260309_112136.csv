@@ -1,0 +1,5 @@
+label,size,repeats,warmup,elapsed_min_s,elapsed_median_s,elapsed_max_s,rss_delta_median_mib
+"RS X (Scalar_field_X, diffractio_gpu)",,5,1,0.013874100000066392,0.014155599999867263,0.014759800000319956,0.0
+"RS XZ (Scalar_mask_XZ, diffractio_gpu)",,5,1,9.752250399999866,10.235773099999278,10.565640799999528,-0.09375
+"RS XY (Scalar_field_XY, diffractio_gpu)",,5,1,0.0026063000004796777,0.002693699999326782,0.0028050000000803266,0.0
+"RS XYZ (Scalar_field_XYZ, diffractio_gpu)",,5,1,0.4006583000000319,0.40179669999997714,0.40509620000011637,0.0

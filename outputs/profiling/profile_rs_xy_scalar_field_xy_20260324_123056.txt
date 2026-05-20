@@ -1,0 +1,45 @@
+label: RS XY (Scalar_field_XY)
+elapsed_s: 1.230121
+python_current_mib: 79.9559
+python_peak_mib: 383.6899
+rss_delta_mib: 80.0000
+
+[cprofile]
+         217 function calls (206 primitive calls) in 1.230 seconds
+
+   Ordered by: cumulative time
+   List reduced from 60 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.012    0.006    1.230    1.230 utils_common.py:33(wrapper)
+        1    0.000    0.000    1.230    1.230 scalar_fields_XY.py:1061(RS)
+        1    0.087    0.087    1.214    1.214 scalar_fields_XY.py:949(_RS_)
+        3    0.000    0.000    0.756    0.252 basic.py:126(c2cn)
+        3    0.755    0.252    0.755    0.252 {built-in method scipy.fft._pocketfft.pypocketfft.c2c}
+        2    0.000    0.000    0.514    0.257 _basic.py:372(fft2)
+        2    0.000    0.000    0.514    0.257 _basic.py:277(fftn)
+        1    0.355    0.355    0.355    0.355 scalar_fields_XY.py:2722(kernelRS)
+        1    0.000    0.000    0.242    0.242 _basic.py:400(ifft2)
+        1    0.000    0.000    0.242    0.242 _basic.py:340(ifftn)
+        2    0.000    0.000    0.016    0.008 function_base.py:5011(meshgrid)
+        4    0.015    0.004    0.015    0.004 {method 'copy' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.004    0.004 scalar_fields_XY.py:124(__init__)
+       12    0.003    0.000    0.003    0.000 {built-in method numpy.array}
+        3    0.000    0.000    0.000    0.000 helper.py:47(_init_nd_shape_and_axes)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:480(broadcast_arrays)
+        4    0.000    0.000    0.000    0.000 stride_tricks.py:340(_broadcast_to)
+        3    0.000    0.000    0.000    0.000 helper.py:114(_asfarray)
+        3    0.000    0.000    0.000    0.000 helper.py:22(_iterable_of_int)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        3    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        3    0.000    0.000    0.000    0.000 helper.py:146(_fix_shape)
+        3    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      6/1    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+      6/1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 utils_common.py:678(get_date)
+        2    0.000    0.000    0.000    0.000 {method 'max' of 'numpy.ndarray' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:416(_broadcast_shape)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+
+

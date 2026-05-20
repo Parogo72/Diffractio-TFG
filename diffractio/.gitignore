@@ -1,0 +1,96 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# Compiled python modules.
+*.pyc
+
+# Temporal files
+*~
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Checkpoints
+*checkpoint.ipynb
+.ipynb_checkpoints/
+
+
+# Tests
+test_results/
+
+# Visual studio
+.vscode/*
+
+# Distribution / packaging
+.Python
+docs/_build/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg
+*.egg-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+distLM/
+.installed.cfg
+aocg/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+
+# virtual environment
+.venv/
+
+# Sphinx documentation
+# docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv python configuration file
+.python-
+.env
+
+tests_results*/
+
+htmlcov/
+
+luismiguel/web/software/diffractio

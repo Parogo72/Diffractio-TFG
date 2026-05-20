@@ -1,0 +1,5 @@
+label,size,repeats,warmup,elapsed_min_s,elapsed_median_s,elapsed_max_s
+"RS X (Scalar_field_X, diffractio_gpu2)",,5,1,0.016733600001316518,0.017808199976570904,0.02299129997845739
+"RS XZ (Scalar_mask_XZ, diffractio_gpu2)",,5,1,8.922192100028042,9.036478499998339,12.003395000007004
+"RS XY (Scalar_field_XY, diffractio_gpu2)",,5,1,0.13406740000937134,0.1369529000367038,0.1439024999854155
+"RS_batched_pycuda_pure XYZ (Scalar_field_XYZ, diffractio_gpu2)",,5,1,0.1760966000147164,0.17837319994578138,0.18523719999939203

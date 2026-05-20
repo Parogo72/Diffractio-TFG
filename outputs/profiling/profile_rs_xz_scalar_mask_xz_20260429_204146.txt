@@ -1,0 +1,45 @@
+label: RS XZ (Scalar_mask_XZ)
+elapsed_s: 7.825727
+python_current_mib: 0.4168
+python_peak_mib: 59.5409
+rss_delta_mib: 1.7734
+
+[cprofile]
+         21983 function calls (21789 primitive calls) in 7.824 seconds
+
+   Ordered by: cumulative time
+   List reduced from 379 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       88    0.009    0.000   10.190    0.116 connection.py:1032(wait)
+        1    0.006    0.006    7.822    7.822 scalar_fields_XZ.py:961(RS)
+        1    0.000    0.000    7.815    7.815 pool.py:659(join)
+       48    0.001    0.000    7.683    0.160 connection.py:246(recv)
+       65    0.002    0.000    7.585    0.117 connection.py:284(_send_bytes)
+    50/49    0.002    0.000    7.326    0.150 connection.py:310(_recv_bytes)
+       43    0.000    0.000    7.047    0.164 pool.py:333(_maintain_pool)
+        6    0.000    0.000    6.978    1.163 threading.py:1115(join)
+    27/20    0.006    0.000    6.858    0.343 {method 'acquire' of '_thread.lock' objects}
+        6    0.000    0.000    6.858    1.143 threading.py:1153(_wait_for_tstate_lock)
+      3/1    0.000    0.000    6.852    6.852 threading.py:1016(_bootstrap)
+      3/1    0.004    0.001    6.852    6.852 threading.py:1056(_bootstrap_inner)
+      3/1    0.002    0.001    6.848    6.848 threading.py:999(run)
+        1    0.000    0.000    6.848    6.848 pool.py:573(_handle_results)
+   207/84    3.805    0.018    6.848    0.082 {built-in method _winapi.WaitForMultipleObjects}
+  296/292    0.003    0.000    6.847    0.023 {method 'GetOverlappedResult' of '_winapi.Overlapped' objects}
+        6    0.000    0.000    6.845    1.141 queues.py:391(put)
+        6    0.002    0.000    6.845    1.141 connection.py:182(send_bytes)
+        1    0.000    0.000    6.845    6.845 pool.py:647(close)
+        1    0.000    0.000    6.841    6.841 pool.py:506(_handle_workers)
+        1    0.000    0.000    6.840    6.840 pool.py:362(map)
+        1    0.000    0.000    6.840    6.840 pool.py:767(get)
+       43    0.002    0.000    6.137    0.143 pool.py:500(_wait_for_updates)
+       88    0.001    0.000    3.793    0.043 connection.py:1010(_exhaustive_wait)
+       89    2.547    0.029    2.551    0.029 {method 'dump' of '_pickle.Pickler' objects}
+       59    0.120    0.002    1.784    0.030 connection.py:202(send)
+       65    0.053    0.001    1.310    0.020 reduction.py:48(dumps)
+      618    0.003    0.000    0.841    0.001 popen_spawn_win32.py:103(wait)
+      594    0.836    0.001    0.836    0.001 {built-in method _winapi.WaitForSingleObject}
+       12    0.001    0.000    0.835    0.070 process.py:142(join)
+
+

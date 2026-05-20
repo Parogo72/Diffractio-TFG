@@ -1,0 +1,45 @@
+label: RS XYZ (Scalar_field_XYZ)
+elapsed_s: 3.953541
+python_current_mib: 0.0158
+python_peak_mib: 23.9362
+rss_delta_mib: 0.0039
+
+[cprofile]
+         10568 function calls (10504 primitive calls) in 3.953 seconds
+
+   Ordered by: cumulative time
+   List reduced from 58 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.068    0.068    3.953    3.953 scalar_fields_XYZ.py:729(RS)
+   128/64    0.055    0.000    3.885    0.061 utils_common.py:33(wrapper)
+       64    0.002    0.000    3.884    0.061 scalar_fields_XY.py:1061(RS)
+       64    0.375    0.006    3.828    0.060 scalar_fields_XY.py:949(_RS_)
+      192    0.003    0.000    2.090    0.011 basic.py:126(c2cn)
+      192    2.064    0.011    2.064    0.011 {built-in method scipy.fft._pocketfft.pypocketfft.c2c}
+      128    0.000    0.000    1.414    0.011 _basic.py:372(fft2)
+      128    0.001    0.000    1.413    0.011 _basic.py:277(fftn)
+       64    1.267    0.020    1.267    0.020 scalar_fields_XY.py:2722(kernelRS)
+       64    0.000    0.000    0.678    0.011 _basic.py:400(ifft2)
+       64    0.000    0.000    0.678    0.011 _basic.py:340(ifftn)
+       64    0.003    0.000    0.062    0.001 function_base.py:5011(meshgrid)
+      128    0.051    0.000    0.051    0.000 {method 'copy' of 'numpy.ndarray' objects}
+      513    0.016    0.000    0.016    0.000 {built-in method numpy.array}
+      192    0.008    0.000    0.012    0.000 helper.py:47(_init_nd_shape_and_axes)
+       65    0.011    0.000    0.011    0.000 {built-in method builtins.print}
+       64    0.001    0.000    0.008    0.000 stride_tricks.py:480(broadcast_arrays)
+      128    0.005    0.000    0.006    0.000 stride_tricks.py:340(_broadcast_to)
+      192    0.004    0.000    0.005    0.000 helper.py:114(_asfarray)
+      192    0.003    0.000    0.003    0.000 helper.py:146(_fix_shape)
+      192    0.001    0.000    0.002    0.000 helper.py:22(_iterable_of_int)
+      128    0.001    0.000    0.002    0.000 {method 'max' of 'numpy.ndarray' objects}
+       64    0.002    0.000    0.002    0.000 {built-in method numpy.zeros}
+      192    0.002    0.000    0.002    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      512    0.002    0.000    0.002    0.000 {built-in method builtins.getattr}
+      192    0.000    0.000    0.002    0.000 helper.py:195(_workers)
+       65    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+      128    0.000    0.000    0.001    0.000 _methods.py:39(_amax)
+      512    0.001    0.000    0.001    0.000 {built-in method builtins.any}
+      384    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+
+

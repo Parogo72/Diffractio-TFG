@@ -1,0 +1,45 @@
+label: RS XZ (Scalar_mask_XZ)
+elapsed_s: 8.120139
+python_current_mib: 0.6382
+python_peak_mib: 59.7590
+rss_delta_mib: 1.4141
+
+[cprofile]
+         24121 function calls (23884 primitive calls) in 8.119 seconds
+
+   Ordered by: cumulative time
+   List reduced from 409 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       50    0.002    0.000   13.104    0.262 pool.py:500(_wait_for_updates)
+        1    0.006    0.006    8.116    8.116 scalar_fields_XZ.py:958(RS)
+        1    0.000    0.000    8.110    8.110 pool.py:659(join)
+       48    0.001    0.000    7.964    0.166 connection.py:246(recv)
+       65    0.003    0.000    7.777    0.120 connection.py:284(_send_bytes)
+    50/48    0.003    0.000    7.501    0.156 connection.py:310(_recv_bytes)
+       65    0.192    0.003    7.355    0.113 {built-in method _winapi.WriteFile}
+        6    0.000    0.000    7.288    1.215 threading.py:1115(join)
+        6    0.000    0.000    7.167    1.195 threading.py:1153(_wait_for_tstate_lock)
+    27/20    0.000    0.000    7.167    0.358 {method 'acquire' of '_thread.lock' objects}
+      3/1    0.000    0.000    7.167    7.167 threading.py:1016(_bootstrap)
+      3/1    0.002    0.001    7.167    7.167 threading.py:1056(_bootstrap_inner)
+      3/1    0.001    0.000    7.166    7.166 threading.py:999(run)
+        1    0.000    0.000    7.166    7.166 pool.py:527(_handle_tasks)
+        6    0.000    0.000    7.166    1.194 queues.py:391(put)
+        6    0.000    0.000    7.165    1.194 connection.py:182(send_bytes)
+        1    0.002    0.002    7.161    7.161 pool.py:506(_handle_workers)
+        1    0.000    0.000    7.159    7.159 pool.py:362(map)
+        1    0.000    0.000    7.158    7.158 pool.py:767(get)
+       52    0.001    0.000    4.375    0.084 queues.py:374(empty)
+      101    0.002    0.000    4.375    0.043 connection.py:1010(_exhaustive_wait)
+       89    2.224    0.025    2.227    0.025 {method 'dump' of '_pickle.Pickler' objects}
+       59    0.099    0.002    1.440    0.024 connection.py:202(send)
+       65    0.056    0.001    1.377    0.021 reduction.py:48(dumps)
+      702    0.003    0.000    0.820    0.001 popen_spawn_win32.py:103(wait)
+      678    0.815    0.001    0.815    0.001 {built-in method _winapi.WaitForSingleObject}
+       12    0.000    0.000    0.812    0.068 process.py:142(join)
+       47    0.002    0.000    0.475    0.010 connection.py:348(_get_more_data)
+      101    0.011    0.000    0.371    0.004 connection.py:1032(wait)
+       50    0.000    0.000    0.277    0.006 pool.py:333(_maintain_pool)
+
+
