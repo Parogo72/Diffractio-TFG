@@ -1,3 +1,10 @@
+## Notes
+- diffractio_gpu corresponds to CuPy implementation
+  - Changes in ScalarFields
+- diffractio_gpu2 corresponds to PyCUDA implementation
+  - Changes in ScalarFields
+  - New Kernels folder with the cuda inizialization and each field kernel
+ 
 ## 1. Profiling general de RS
 
 Version CPU:
